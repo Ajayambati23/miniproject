@@ -1,0 +1,122 @@
+/* App.css */
+
+/* General body styles */
+body {
+  background-color: #f8f9fa; /* Light background for contrast */
+  color: #343a40; /* Dark text color */
+  font-family: Arial, sans-serif; /* Clean font */
+}
+
+/* Navbar styles */
+.navbar {
+  border-bottom: 2px solid #ffc107; /* Yellow border for the navbar */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Larger font size for the brand */
+}
+
+.nav-link {
+  font-size: 1.1rem; /* Slightly larger font size for links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: #ffc107; /* Change link color on hover */
+}
+
+/* Content area styles */
+.content {
+  padding: 20px; /* Padding around the content */
+  background-color: #ffffff; /* White background for content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Additional styles for headings */
+h1, h2, h3 {
+  color: #343a40; /* Consistent heading color */
+}
+
+/* Button styles */
+.btn-custom {
+  background-color: #ffc107; /* Custom button color */
+  color: #fff; /* White text for buttons */
+}
+
+.btn-custom:hover {
+  background-color: #e0a800; /* Darker shade on hover */
+}
+
+/* Favorites section styles */
+.favorites-container {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  flex-direction: column; /* Stack items vertically */
+  padding: 20px; /* Add padding around the container */
+  min-height: 300px; /* Set a minimum height for the container */
+}
+
+/* Individual movie item styles */
+.favorite-movie {
+  display: flex; /* Use flexbox for the movie item */
+  flex-direction: column; /* Stack image and title vertically */
+  align-items: center; /* Center align the content */
+  margin: 10px; /* Add margin for spacing */
+  background-color: #ffffff; /* White background for the movie item */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 10px; /* Padding inside the movie item */
+  width: 200px; /* Set a fixed width for consistency */
+}
+
+/* Movie poster styles */
+.favorite-movie img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Slightly round the image corners */
+}
+
+/* Movie title styles */
+.favorite-movie h3 {
+  margin-top: 10px; /* Space between image and title */
+  color: #343a40; /* Dark text color for the title */
+  text-align: center; /* Center the title text */
+}
+
+/* Home page styles */
+.home-container {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items horizontally */
+  padding: 20px; /* Padding around the container */
+}
+
+/* Individual movie card styles */
+.movie-card {
+  background-color: #ffffff; /* White background for movie cards */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 10px; /* Margin around each card */
+  padding: 10px; /* Padding inside the card */
+  width: 200px; /* Fixed width for consistency */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+/* Movie card hover effect */
+.movie-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+/* Movie poster styles */
+.movie-card img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Slightly round the image corners */
+}
+
+/* Movie title styles */
+.movie-card h3 {
+  margin-top: 10px; /* Space between image and title */
+  color: #
